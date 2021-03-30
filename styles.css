@@ -1,0 +1,94 @@
+html {
+    height: 750px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: blue;
+}
+
+body {
+font-family: orbitron;
+background-color: #000018;
+margin: 0;
+text-align: center;
+}
+
+h1 {
+color: rgb(4, 0, 255);
+font-family: 'Courier New', Courier, monospace;
+text-shadow: 0 0 5px rgb(98, 0, 255);
+margin: 0;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding: 0;
+    margin: 6px;
+    font-size: 1rem;
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+    font: inherit;
+    cursor: pointer;
+    border: 1px;
+    border-style: solid;
+}
+button:hover {
+    background-color: grey;
+}
+
+p {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    overflow: hidden;
+
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+
+
+}
+.calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 10em;
+}
+
+.show {
+    margin-left: 6px;
+    background-color: white;
+    width: 9.1em;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.screen {
+    margin: 0;
+    text-align: right;
+    font-size: 1.3em;
+    color: black;;
+}
+
+.small {
+    margin: 0;
+    font-size: 15px;
+}
+
+.side {
+    width: 70px;
+}
+.ans {
+    background-color: #f7b733;
+}
+.ans:hover{
+    background-color: #7a5407
+}
+
+.invisible {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    pointer-events: none;
+}
