@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Calculadora</title>
+
+    <link rel='stylesheet' href='styles.css'>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+    <div class='title'>
+    <h1>Trying</h1>
+    <h1>to make</h1>
+    <h1>a calculator</h1>
+    </div>
+
+
+
+    <div class='calculator'>
+        
+        <div id='screen' class='show'>
+            <div class='screen'>
+                <p id='entry' class='inputOne'>0</p>
+            </div>
+            <div class='screen small'>
+                <p id='smallEntry' class='inputTwo'>0</p>
+            </div>
+        </div>
+
+        <div>
+            <button value='1' onClick=getValue(value)>1</button>
+            <button value='2' onClick=getValue(value)>2</button>
+            <button value='3' onClick=getValue(value)>3</button>
+            <button id='product' class='side' value='*' onClick=operations(value)>*</button>
+
+            <button value='4' onClick=getValue(value)>4</button>
+            <button value='5' onClick=getValue(value)>5</button>
+            <button value='6' onClick=getValue(value)>6</button>
+            <button id='plus' class='side' value='+' onClick=operations(value)>+</button>
+
+            <button value='7' onClick=getValue(value)>7</button>
+            <button value='8' onClick=getValue(value)>8</button>
+            <button value='9' onClick=getValue(value)>9</button>
+            <button id='equal' class='side' value='=' onClick=equal()>=</button>
+
+            <button id='minus' value='-' onClick=operations(value)>-</button>
+            <button value='0' onClick=getValue(value)>0</button>
+            <button id='divide' value='/' onClick=operations(value)>/</button>
+            <button id='ans' class='side ans' valueAns=''>Ans</button>
+
+            <button class='invisible'></button>
+            <button value='.' onClick=getValue(value)>.</button>
+            <button class='invisible'></button>
+
+            <button id='clear' class='side ans' onClick=clearScreen()>C</button>
+        </div>
+    </div>
+
+    <script src='https://unpkg.com/scrollreveal'></script>
+    <script src='main.js'></script>
+</body>
+</html>
